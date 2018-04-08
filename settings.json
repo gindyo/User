@@ -6,11 +6,33 @@
                 "h"
             ],
             "after": [
-                "<ESC>"
+                " <ESC>"
             ]
         },
     ],
     "vim.otherModesKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "h"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateBack"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "n"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateForward"
+                }
+            ]
+        },
         {
             "before": [
                 "<leader>",
