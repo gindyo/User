@@ -9,6 +9,17 @@
                 "<ESC>"
             ]
         },
+        {
+            "before": [
+                "<leader>",
+                "."
+            ],
+            "commands": [
+                {
+                    "command": "editor.action.triggerSuggest"
+                }
+            ]
+        },
     ],
     "vim.otherModesKeyBindings": [
         {
@@ -168,5 +179,6 @@
         "suppressNoRepositoryWarning": false,
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
-    }
+    },
+    "editor.formatOnSave": true
 }
